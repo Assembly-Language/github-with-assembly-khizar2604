@@ -23,7 +23,7 @@ Next:
 
 skip:
     add esi, type array 
-    loop Next
+    loop Nexts
 
     mov edx, offset msg1
     call writestring                ; display string 
